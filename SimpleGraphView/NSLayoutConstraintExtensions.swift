@@ -10,7 +10,7 @@ import UIKit
 
 extension NSLayoutConstraint {
     
-    func changeMultiplier(to newValue: CGFloat) {
+    func changeMultiplier(to newValue: CGFloat) -> NSLayoutConstraint {
         // multiplierのみ変更
         let newContstraint = NSLayoutConstraint(item: firstItem!,
                                                 attribute: firstAttribute,
@@ -23,9 +23,10 @@ extension NSLayoutConstraint {
         // 適用
         NSLayoutConstraint.deactivate([self])
         NSLayoutConstraint.activate([newContstraint])
+        return newContstraint
     }
     
-    func changeMultiplier(to newValue: Float) {
-        changeMultiplier(to: CGFloat(newValue))
+    func changeMultiplier(to newValue: Float) -> NSLayoutConstraint {
+        return changeMultiplier(to: CGFloat(newValue))
     }
 }
