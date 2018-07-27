@@ -53,13 +53,13 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="zjN-kS-Aw8">
                                                 <rect key="frame" x="0.0" y="61.5" width="337.5" height="180"/>
                                                 <subviews>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qeb-6g-2UE">
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qeb-6g-2UE" userLabel="hGraph3View">
                                                         <rect key="frame" x="0.0" y="0.0" width="337.5" height="90"/>
                                                         <subviews>
-                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Szd-q9-Caj">
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Szd-q9-Caj" userLabel="hGraph2View">
                                                                 <rect key="frame" x="0.0" y="-0.5" width="337.5" height="90"/>
                                                                 <subviews>
-                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZDU-43-9sQ">
+                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZDU-43-9sQ" userLabel="hGraph1View">
                                                                         <rect key="frame" x="0.0" y="-0.5" width="337.5" height="90"/>
                                                                         <color key="backgroundColor" red="0.81109677988150419" green="1" blue="0.31474089850665776" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
@@ -72,7 +72,7 @@
                                                                     <constraint firstItem="ZDU-43-9sQ" firstAttribute="width" secondItem="Szd-q9-Caj" secondAttribute="width" id="rR4-MX-UAs"/>
                                                                 </constraints>
                                                             </view>
-                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bgm-tg-BpE">
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bgm-tg-BpE" userLabel="hMaskView">
                                                                 <rect key="frame" x="0.0" y="0.0" width="337.5" height="90"/>
                                                                 <color key="backgroundColor" red="0.96186427003832831" green="0.96932834671948775" blue="1" alpha="0.8005672089041096" colorSpace="custom" customColorSpace="sRGB"/>
                                                             </view>
@@ -141,14 +141,14 @@
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SKU-Qc-npf">
                                                         <rect key="frame" x="0.0" y="0.0" width="337.5" height="170"/>
                                                         <subviews>
-                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TVF-wQ-STr">
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TVF-wQ-STr" userLabel="vGraphView1">
                                                                 <rect key="frame" x="52" y="0.0" width="50" height="170"/>
                                                                 <color key="backgroundColor" red="1" green="0.57015692190261813" blue="0.61828422179355713" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" constant="50" id="qq4-Yb-9vw"/>
                                                                 </constraints>
                                                             </view>
-                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ffe-fh-vjO">
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ffe-fh-vjO" userLabel="vGraphView2">
                                                                 <rect key="frame" x="235.5" y="0.0" width="50" height="170"/>
                                                                 <color key="backgroundColor" red="0.57543586657467327" green="0.61670397174626468" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <constraints>
@@ -208,6 +208,19 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="Odu-Ng-2wI"/>
+                    <connections>
+                        <outlet property="hGraph1Slider" destination="6i1-rp-6vc" id="53g-85-JK4"/>
+                        <outlet property="hGraph1WidthConstraint" destination="rR4-MX-UAs" id="670-sD-Xs6"/>
+                        <outlet property="hGraph2Slider" destination="cMu-1W-fXo" id="UvE-QI-TOm"/>
+                        <outlet property="hGraph2WidthConstraint" destination="eE2-gL-aPz" id="pD3-gE-N4v"/>
+                        <outlet property="hGraph3Slider" destination="ZWW-pv-sW0" id="zRJ-wA-fNn"/>
+                        <outlet property="hMask1Slider" destination="bew-q3-YwL" id="oop-uo-V1N"/>
+                        <outlet property="hMaskWidthConstraint" destination="Voo-v9-7yF" id="C9B-Ol-bsT"/>
+                        <outlet property="vGraph1HeightConstraint" destination="2Zj-Ef-EWj" id="zDT-KP-agc"/>
+                        <outlet property="vGraph1Slider" destination="7dl-AG-gdx" id="Vna-Fx-2op"/>
+                        <outlet property="vGraph2HeightConstraint" destination="1LW-Y1-jXW" id="LyN-vH-dkP"/>
+                        <outlet property="vGraph2Slider" destination="cFm-qg-x28" id="luy-H9-mat"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
