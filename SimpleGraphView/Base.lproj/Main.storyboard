@@ -95,17 +95,29 @@
                                                         <subviews>
                                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="6i1-rp-6vc">
                                                                 <rect key="frame" x="-2" y="0.0" width="96.5" height="31"/>
+                                                                <connections>
+                                                                    <action selector="valueChangedhGraph1Slider:" destination="BYZ-38-t0r" eventType="valueChanged" id="7uq-hk-rSG"/>
+                                                                </connections>
                                                             </slider>
                                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="cMu-1W-fXo">
                                                                 <rect key="frame" x="120.5" y="0.0" width="96.5" height="31"/>
+                                                                <connections>
+                                                                    <action selector="valueChangedhGraph2Slider:" destination="BYZ-38-t0r" eventType="valueChanged" id="DSo-QK-FsS"/>
+                                                                </connections>
                                                             </slider>
                                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="2" translatesAutoresizingMaskIntoConstraints="NO" id="ZWW-pv-sW0">
                                                                 <rect key="frame" x="243" y="0.0" width="96.5" height="31"/>
+                                                                <connections>
+                                                                    <action selector="valueChangedhGraph3Slider:" destination="BYZ-38-t0r" eventType="valueChanged" id="li4-Rr-nTj"/>
+                                                                </connections>
                                                             </slider>
                                                         </subviews>
                                                     </stackView>
                                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="bew-q3-YwL">
                                                         <rect key="frame" x="-2" y="150" width="341.5" height="31"/>
+                                                        <connections>
+                                                            <action selector="valueChangedhMask1Slider:" destination="BYZ-38-t0r" eventType="valueChanged" id="ak2-gN-H7B"/>
+                                                        </connections>
                                                     </slider>
                                                 </subviews>
                                             </stackView>
@@ -170,9 +182,15 @@
                                                         <subviews>
                                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="7dl-AG-gdx">
                                                                 <rect key="frame" x="-2" y="0.0" width="158" height="31"/>
+                                                                <connections>
+                                                                    <action selector="valueChangedvGraph1Slider:" destination="BYZ-38-t0r" eventType="valueChanged" id="Dn5-FL-X5i"/>
+                                                                </connections>
                                                             </slider>
                                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="cFm-qg-x28">
                                                                 <rect key="frame" x="182" y="0.0" width="157.5" height="31"/>
+                                                                <connections>
+                                                                    <action selector="valueChangedvGraph2Slider:" destination="BYZ-38-t0r" eventType="valueChanged" id="OVg-8m-XV9"/>
+                                                                </connections>
                                                             </slider>
                                                         </subviews>
                                                     </stackView>

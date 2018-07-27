@@ -52,6 +52,31 @@ class ViewController: UIViewController {
         vGraph1HeightConstraint.changeMultiplier(to: vGraph1Slider.value)
         vGraph2HeightConstraint.changeMultiplier(to: vGraph2Slider.value)
     }
+    
+    @IBAction func valueChangedhGraph1Slider(_ sender: UISlider) {
+        hGraph1WidthConstraint.changeMultiplier(to: sender.value / hGraph3Slider.value)
+    }
+    
+    @IBAction func valueChangedhGraph2Slider(_ sender: UISlider) {
+        hGraph2WidthConstraint.changeMultiplier(to: sender.value / hGraph3Slider.value)
+    }
+    
+    @IBAction func valueChangedhGraph3Slider(_ sender: UISlider) {
+        hGraph1WidthConstraint.changeMultiplier(to: hGraph1Slider.value / sender.value)
+        hGraph2WidthConstraint.changeMultiplier(to: hGraph2Slider.value / sender.value)
+    }
+    
+    @IBAction func valueChangedhMask1Slider(_ sender: UISlider) {
+        hMaskWidthConstraint.changeMultiplier(to: 1.0 - sender.value)
+    }
+    
+    @IBAction func valueChangedvGraph1Slider(_ sender: UISlider) {
+        vGraph1HeightConstraint.changeMultiplier(to: sender.value)
+    }
+    
+    @IBAction func valueChangedvGraph2Slider(_ sender: UISlider) {
+        vGraph2HeightConstraint.changeMultiplier(to: sender.value)
+    }
 
 }
 
