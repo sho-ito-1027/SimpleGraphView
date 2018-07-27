@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C6BFFF29210B230D0009A549 /* HorizontalGraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BFFF28210B230D0009A549 /* HorizontalGraphViewController.swift */; };
+		C6BFFF2B210B234C0009A549 /* VerticalGraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BFFF2A210B234C0009A549 /* VerticalGraphViewController.swift */; };
 		C6CA460F210AD1FD006F3D91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CA460E210AD1FD006F3D91 /* AppDelegate.swift */; };
 		C6CA4611210AD1FD006F3D91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CA4610210AD1FD006F3D91 /* ViewController.swift */; };
 		C6CA4614210AD1FD006F3D91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6CA4612210AD1FD006F3D91 /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C6BFFF28210B230D0009A549 /* HorizontalGraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalGraphViewController.swift; sourceTree = "<group>"; };
+		C6BFFF2A210B234C0009A549 /* VerticalGraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalGraphViewController.swift; sourceTree = "<group>"; };
 		C6CA460B210AD1FD006F3D91 /* SimpleGraphView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleGraphView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6CA460E210AD1FD006F3D91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6CA4610210AD1FD006F3D91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +63,8 @@
 				C6CA460E210AD1FD006F3D91 /* AppDelegate.swift */,
 				C6CA4610210AD1FD006F3D91 /* ViewController.swift */,
 				C6CA4612210AD1FD006F3D91 /* Main.storyboard */,
+				C6BFFF28210B230D0009A549 /* HorizontalGraphViewController.swift */,
+				C6BFFF2A210B234C0009A549 /* VerticalGraphViewController.swift */,
 				C6CA4615210AD203006F3D91 /* Assets.xcassets */,
 				C6CA4617210AD203006F3D91 /* LaunchScreen.storyboard */,
 				C6CA461A210AD203006F3D91 /* Info.plist */,
@@ -139,8 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6CA4621210AEE48006F3D91 /* NSLayoutConstraintExtensions.swift in Sources */,
+				C6BFFF29210B230D0009A549 /* HorizontalGraphViewController.swift in Sources */,
 				C6CA4611210AD1FD006F3D91 /* ViewController.swift in Sources */,
 				C6CA460F210AD1FD006F3D91 /* AppDelegate.swift in Sources */,
+				C6BFFF2B210B234C0009A549 /* VerticalGraphViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
