@@ -104,9 +104,9 @@
                                     <constraint firstAttribute="bottom" secondItem="sRl-cw-4Kw" secondAttribute="bottom" id="ERq-pw-UwB"/>
                                     <constraint firstItem="sRl-cw-4Kw" firstAttribute="height" secondItem="JI2-z0-wfM" secondAttribute="height" id="T2a-56-RgD"/>
                                     <constraint firstItem="t0p-1N-kVq" firstAttribute="height" secondItem="JI2-z0-wfM" secondAttribute="height" id="TU8-SP-bwn"/>
-                                    <constraint firstAttribute="bottom" secondItem="t0p-1N-kVq" secondAttribute="bottom" id="bC1-4b-gnl"/>
                                     <constraint firstAttribute="height" constant="176.5" id="dm6-Y2-CeA"/>
                                     <constraint firstItem="t0p-1N-kVq" firstAttribute="width" secondItem="sRl-cw-4Kw" secondAttribute="width" id="jJa-XM-ov8"/>
+                                    <constraint firstItem="t0p-1N-kVq" firstAttribute="top" secondItem="JI2-z0-wfM" secondAttribute="top" id="ryC-Is-rRx"/>
                                 </constraints>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="9uw-he-5iV">
